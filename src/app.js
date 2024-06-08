@@ -18,10 +18,9 @@ app.get("/", (req, res) => {
   return res.json({
     message: "Welcome to the Jokes Rest API",
     apiVersion: "1.0.1",
-    author: "https://github.com/radespratama",
-    endpoint: {
+    author: "https://github.com/sivaprasath2004",
+    language: {
       english: "/v1/en",
-      indonesian: "/v1/id",
     },
     time: new Date().getTime(),
   });
